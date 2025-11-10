@@ -120,6 +120,7 @@ body {
     color: var(--white);
     position: relative;
     margin-top: 70px;
+    z-index: 1;
 }
 
 .hero-content {
@@ -222,6 +223,8 @@ section {
 /* About Section */
 .about {
     background: var(--white);
+    position: relative;
+    z-index: 2;
 }
 
 .about-grid {
@@ -262,6 +265,8 @@ section {
 /* Classes Section */
 .classes {
     background: var(--light-bg);
+    position: relative;
+    z-index: 2;
 }
 
 .classes-grid {
@@ -307,6 +312,8 @@ section {
 /* Pricing Section */
 .pricing {
     background: var(--white);
+    position: relative;
+    z-index: 2;
 }
 
 .pricing-grid {
@@ -399,6 +406,8 @@ section {
 /* Contact Section */
 .contact {
     background: var(--light-bg);
+    position: relative;
+    z-index: 2;
 }
 
 .contact-grid {

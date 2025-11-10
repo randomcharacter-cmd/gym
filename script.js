@@ -160,8 +160,13 @@ window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxSpeed = 0.5;
 
-    if (hero && scrolled < hero.offsetHeight) {
-        hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
+    if (hero) {
+        if (scrolled < hero.offsetHeight) {
+            hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
+        } else {
+            // Reset transform when scrolled past hero to prevent overlap
+            hero.style.transform = 'translateY(0)';
+        }
     }
 });
 
