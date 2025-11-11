@@ -111,8 +111,9 @@ body {
 .hero {
     height: 100vh;
     min-height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('images/hero.svg') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('images/hero.jpg') center/cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;

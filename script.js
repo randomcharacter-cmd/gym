@@ -215,7 +215,7 @@ window.addEventListener('scroll', debouncedScroll);
 
 // Preload critical images
 const preloadImages = [
-    'images/hero.svg'
+    'images/hero.jpg'
 ];
 
 preloadImages.forEach(src => {
