@@ -215,7 +215,7 @@ window.addEventListener('scroll', debouncedScroll);
 
 // Preload critical images
 const preloadImages = [
-    'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=85'
+    'images/hero.svg'
 ];
 
 preloadImages.forEach(src => {

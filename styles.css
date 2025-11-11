@@ -112,7 +112,7 @@ body {
     height: 100vh;
     min-height: 600px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=85') center/cover;
+                url('images/hero.svg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
